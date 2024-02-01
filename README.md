@@ -19,7 +19,18 @@ Therefore, the result is not the same as the original result. However, training 
 3. Know Pytorch.
 
 # Pipeline
+General:  
+Train: Dataset -> VAE -> Latents -> Noisify -> UNet -> Noise -> ...  
+Sampling: Init noise + timestep -> Unet -> Noise -> subtract from Init noise  
+
+Experiment:  
+Train:  Dataset -> Subset -> VAE -> Latents -> Train/Valid -> Noisify -> Unet -> Noise -> ...  
+Sampling:  Init noise + timestep -> Unet -> Noise -> subtract from Init noise  
+-> Setup section.  
+
+Plus: Activation Stats, KID.  
 
 # Dataset
+LSUN Bedroom, auto downloaded, ...  
 
 # Setup
