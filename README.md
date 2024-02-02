@@ -2,7 +2,7 @@
 My personal practice, reproduce LSUN Bedroom Latent Diffusion Unet Model result from fastai course (Part 2, Lesson 25)
 
 # Main Objective  
-Reproduce LSUN Bedroom Latent Diffusion Unet Model result from fastai course (Part 2, Lesson 25), by training it from scratch.  
+Reproduce LSUN Bedroom Latent Diffusion Unet Model result from Fastai Course (Part 2, Lesson 25), by training it from scratch.  
 
 # What to expect  
 1. Full general Pipeline Latent Diffusion.  
@@ -49,7 +49,7 @@ Init noise + reversed Timestep -> Unet -> Noise -> subtract from Init noise.
 - KID (Kernel Inception Distance)
 
 # Files
-1. Original files from Fastai Course Part 2 (from [Course link](https://course.fast.ai/)):   
+1. Original files from Fastai Course Part 2, Lesson 25 (from [Course link](https://course.fast.ai/)):   
 - 30_lsun_diffusion-latents.ipynb (~300k images, 25 epochs, Miniai Unet, Miniai Noisify)
 2. Reproduction files:
 - image_generator_nonorm_miniai_100k_20e.ipynb (100k images, 20 epochs, Miniai Unet, Miniai Noisify)
