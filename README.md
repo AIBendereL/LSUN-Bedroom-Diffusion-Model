@@ -50,8 +50,8 @@ Init noise + reversed Timestep -> Unet -> Noise -> subtract from Init noise.
 
 # Files
 1. Original files from Fastai Course Part 2, Lesson 25 (from [Course link](https://course.fast.ai/)):   
-- 30_lsun_diffusion-latents.ipynb (~300k images, 25 epochs, Miniai Unet, Miniai Noisify)
+- 30_lsun_diffusion-latents.ipynb (~300k images, 25 epochs, Miniai Unet, Miniai Noisify, Miniai Sampling)
 2. Reproduction files:
-- image_generator_nonorm_miniai_100k_20e.ipynb (100k images, 20 epochs, Miniai Unet, Miniai Noisify)
-- image_generator_nonorm_miniai_10k_60e.ipynb (10k images, 60 epochs, Miniai Unet, Diffusers Noisify)
-- image_generator_nonorm_miniai_10k_60e_Ver2.ipynb (10k images. 60 epochs, Diffusers Unet, Diffuser Noisify)
+- image_generator_nonorm_miniai_100k_20e.ipynb (100k images, 20 epochs, Miniai Unet, Miniai Noisify, Miniai Sampling)
+- image_generator_nonorm_miniai_10k_60e.ipynb (10k images, 60 epochs, Miniai Unet, Diffusers Noisify, Miniai Sampling)
+- image_generator_nonorm_miniai_10k_60e_Ver2.ipynb (10k images. 60 epochs, Miniai Unet, Diffuser Noisify, Diffuser Sampling)
